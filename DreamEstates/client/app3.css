@@ -1,0 +1,167 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color and font to the entire page */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #000000, #2e2e2e);
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #2d2d2d;
+    color: #ffcc00;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+  }
+  
+  header h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+  }
+  
+  /* Form styles */
+  .form {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px auto; /* Center the form horizontally */
+    max-width: 600px; /* Limit the width of the form */
+    text-align: center; /* Center the form content */
+  }
+  
+  /* Input styles */
+  .form h2 {
+    color: #ffcc00;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #ffcc00;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    color: #fff;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Radio button styles */
+  .switch-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"] + label {
+    padding: 10px 20px;
+    background-color: #333;
+    border: 2px solid #ffcc00;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+    color: #ffcc00;
+    position: relative;
+  }
+  
+  input[type="radio"] + label:hover {
+    background-color: #ffcc00;
+    color: #333;
+    transform: scale(1.05);
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #ffcc00;
+    color: #333;
+    transform: scale(1.05);
+  }
+  
+  /* Select box styles */
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Button styles */
+  button.submit {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button.submit:hover {
+    background-color: #333;
+    color: #ffcc00;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Result container styles */
+  .result {
+    margin: 20px auto; /* Center the result container horizontally */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Center the result content */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #2d2d2d;
+    color: #ffcc00;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #444;
+  }
+  
+  /* Hover effects */
+  .hover-bg-color {
+    background-color: #ffcc00 !important;
+    color: #333 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  

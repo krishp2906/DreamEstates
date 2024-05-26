@@ -1,0 +1,163 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color and font to the entire page */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #ffcc00;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  header h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Form styles */
+  .form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto; /* Center the form horizontally */
+    max-width: 600px; /* Limit the width of the form */
+    text-align: center; /* Center the form content */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Input styles */
+  .form h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Radio button styles */
+  .switch-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add spacing between radio buttons and other elements */
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"] + label {
+    padding: 10px 20px;
+    background-color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+  }
+  
+  input[type="radio"] + label:hover {
+    background-color: #ffcc00;
+    color: #333;
+    transform: scale(1.05);
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #ffcc00;
+    color: #333;
+    transform: scale(1.05);
+  }
+  
+  /* Select box styles */
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Button styles */
+  button.submit {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button.submit:hover {
+    background-color: #333;
+    color: #ffcc00;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Result container styles */
+  .result {
+    margin: 20px auto; /* Center the result container horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the result content */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #ffcc00;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effects */
+  .hover-bg-color {
+    background-color: #ffcc00 !important;
+    color: #333 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
